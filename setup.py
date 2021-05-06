@@ -30,7 +30,7 @@ An API documentation generator for Swagger UI and Django REST Framework.
 Installation
 From pip:
 
-pip install django-rest-swagger
+pip install django-rest-swagger-django3fix
 
 Project @ https://github.com/marcgibbons/django-rest-swagger
 Docs @ https://django-rest-swagger.readthedocs.io/
@@ -40,7 +40,7 @@ Docs @ https://django-rest-swagger.readthedocs.io/
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-rest-swagger',
+    name='django-rest-swagger-django3fix',
     version=VERSION,
     install_requires=[
         'coreapi>=2.3.0',
